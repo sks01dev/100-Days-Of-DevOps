@@ -56,6 +56,7 @@ grep kirsty /etc/passwd
 
 This diagram represents the flow of your commands across the infrastructure:
 
+```
 [ YOUR TERMINAL ] 
       |
       | (ssh) --> [ APP SERVER 1 ]
@@ -68,7 +69,9 @@ This diagram represents the flow of your commands across the infrastructure:
                                          ^--- (The "Lock")
 
 
+```
 ---
+
 
 ### 5. Summary of Day 1
 
