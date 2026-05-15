@@ -56,7 +56,6 @@ grep kirsty /etc/passwd
 
 This diagram represents the flow of your commands across the infrastructure:
 
-```text
 [ YOUR TERMINAL ] 
       |
       | (ssh) --> [ APP SERVER 1 ]
@@ -68,11 +67,10 @@ This diagram represents the flow of your commands across the infrastructure:
         kirsty:x:1001:1001::/home/kirsty:/sbin/nologin
                                          ^--- (The "Lock")
 
-```
 
 ---
 
-### 5. Summary of Mastery
+### 5. Summary of Day 1
 
 * **SSH:** Used to switch the context of your commands to a remote server.
 * **SUDO:** Necessary because `/etc/passwd` is a protected system file.
